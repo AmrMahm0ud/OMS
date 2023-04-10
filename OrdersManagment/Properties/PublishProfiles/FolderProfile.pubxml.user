@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>F:\OmPub</_PublishTargetUrl>
+    <History>True|2023-03-20T11:20:16.8431774Z;True|2023-03-20T13:16:15.5161893+02:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="ConnectionString">
+      <Value>Data Source=.%3bInitial Catalog=OrdersDB%3bIntegrated Security=True%3bTrustServerCertificate=True</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="OrdersManagment.DataAccess.ApplicationDbContext">
+      <Value>Data Source=.%3bInitial Catalog=OrdersDB%3bIntegrated Security=True%3bTrustServerCertificate=True</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
